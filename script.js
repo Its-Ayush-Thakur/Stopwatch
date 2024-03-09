@@ -39,7 +39,7 @@ function displayTime() {
     if (hour < 10) {
         newHour = "0" + newHour;
     }
-    document.querySelector(".time").innerHTML = newHour + ":" + newMin + ":" + newSec + ":" + newCount;
+    document.querySelector(".time").innerHTML = newHour + ":" + newMin + ":" + newSec + "." + newCount;
 }
 
 function increaseCount() {
